@@ -23,7 +23,7 @@ Soocial was address book syncing service before it got acquired by Viadeo. This 
 ```ruby
 user_agent = Agent212.parse(user_agent_string)
 if cfnetwork = user_agent.products.detect { |p| p.name == "CFNetwork" }
-  if cfnetwork.version != 520.4.3
+  if cfnetwork.version != '520.4.3'
     raise Foo, 'someone set us up the bomb!'
   else
     puts 'bar'
