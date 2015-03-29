@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.description = %q{Agent 212 reads and writes user agent fields and provides a basic api to modify them.}
   s.files = Dir['lib/**/*']
   s.licenses = ['MIT']
-  s.homepage = 'https://github.com/viadeo/agent212'
-  # or 'https://github.com/tijn/agent212' since the version at Viadeo is not maintained anymore since I left
+  s.homepage = 'https://github.com/tijn/agent212'
+  # or 'https://github.com/viadeo/agent212' but the version at Viadeo is not maintained anymore since I left the company
 end
