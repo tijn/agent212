@@ -21,4 +21,4 @@ doc/
 .yardoc/
 tmp/
 .bundle
-
+*.gem
